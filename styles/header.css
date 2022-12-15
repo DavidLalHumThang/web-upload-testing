@@ -1,0 +1,226 @@
+.header-part_divv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:100;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(241, 213, 213);
+    
+}
+
+.left_divv{
+    
+    color: white;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    
+    
+
+    
+}
+
+.hamburger-icon{
+    height: 20px;
+    padding-left:20px;
+}
+
+.YouTube-logo-icon{
+    height: 17px;
+    padding-left: 20px;
+}
+
+
+
+.right_divv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin-left: 25px;
+    flex-shrink: 0;
+}
+
+.upload-icon-part{
+    height: 20px;
+}
+
+.youtube-apps-part{
+    height: 20px;
+    margin-left: -32px;
+}
+
+.notifications-part{
+    height: 20px;
+    margin-left: -32px;
+
+}
+
+.noti-toolpit_divv{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noti-toolpit{
+    position:absolute;
+    background-color: red;
+    color:white;
+    font-family: Roboto,Arial;
+    
+    font-size: 8px;
+    padding:1px 3px 1px 3px;
+    border-radius: 10px;
+    right:3px;
+    top:0;
+}
+.user-profile-part{
+    height: 25px;
+    width:25px;
+    border-radius: 15px;
+    margin-left: -32px;
+    margin-right: 30px;
+}
+
+.middle_divv{
+    color:rgb(231, 20, 20);
+    
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-part{
+    height: 20px;
+    
+}
+
+.toolpit-search_divv{
+    position:absolute;
+    bottom:-35px;
+    background-color: rgb(78, 38, 38);
+    color:white;
+    padding:3px 5px 3px 5px;
+    opacity:0;
+    pointer-events: none;
+    transition:opacity 0.15s;
+    border-radius: 3px;
+    
+    
+}
+
+.search-part_divv:hover .toolpit-search_divv{
+    opacity: 1;
+    
+}
+
+.search-part_divv{
+    background-color: rgb(247, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:27px;
+    width: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(179, 170, 170);
+    margin-left: -3px;
+    position:relative;
+    
+}
+
+.search-box-part{
+    height: 25px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: rgb(179, 170, 170);
+    border-width: 1px;
+    flex:1;
+    width: 0;
+    max-width: 300px;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.12);
+    
+}
+
+.search-box-part::placeholder{
+    padding-left: 5px;
+}
+.voice-search-part{
+    height: 20px;
+}
+
+.voice-search-part_divv{
+    background-color: rgb(241, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 4px 4px 4px;
+    border-radius: 15px;
+    margin-left:6px;
+    position:relative;
+}
+
+.search-with-voice_divv{
+    position:absolute;
+    background-color: rgb(78, 38, 38);
+    white-space: nowrap;
+    bottom:-35px; 
+    font-family: Arial;
+    font-size: 12px;
+    padding:3px 4px 3px 4px;
+    color:white;
+    opacity: 0;
+    transition:opacity 0.15s;
+    border-radius: 3px;
+    pointer-events: none;
+}
+
+.voice-search-part_divv:hover .search-with-voice_divv{
+    opacity:1;
+}
+
+.upload-toolpit_divv,
+.youtube-apps-toolpit_divv,
+.noti-toolpit_divv{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    
+    
+}
+
+.create_divv,
+.YouTube-app_divv,
+.notifications_divv{
+    position:absolute;
+    background-color: rgb(56, 51, 51);
+    color:white;
+    font-size:12px;
+    font-family: Roboto,Arial;
+    bottom:-35px;
+    padding: 3px 4px 3px 4px;
+    opacity:0;
+    transition:opacity 0.15s;
+    border-radius: 3px;
+    pointer-events: none;
+
+}
+
+.upload-toolpit_divv:hover .create_divv,
+.youtube-apps-toolpit_divv:hover .YouTube-app_divv,
+.noti-toolpit_divv:hover .notifications_divv{
+    opacity: 1;
+}
